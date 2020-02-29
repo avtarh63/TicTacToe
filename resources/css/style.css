@@ -1,0 +1,197 @@
+html {
+    background-color: #41b3a3;
+}
+
+h1 {
+    font-size: 500%;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    color: wheat;
+}
+
+h2 {
+    font-size: 300%;
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: wheat;
+
+}
+
+.wins1-text {
+    display: none;
+}
+
+.wins2-text {
+    display: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 70%;
+    height: 70%;
+    padding-left: 15%
+}
+
+.player1-text {
+    flex: 1;
+    padding-left: 8%;
+}
+
+.player1-active h2 {
+    color: #e27d60;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.player2-text {
+    float: right;
+    flex: 1;
+    padding-left: 8%;
+}
+
+.player2-active h2 {
+    color: #7665bd;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+.game-container {
+    width: 50%;
+    height: 50%;
+}
+
+.game-container div {
+    float: left;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    background-color: white;
+    border-radius: 10%;
+    position: relative;
+}
+
+ion-icon {
+    color: #e27d60;
+    font-size: 2000%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+ion-icon:last-child {
+    color: #7665bd;
+    font-size: 1400%;
+}
+
+div .player-1:hover {
+    background-color: #e27d60;
+}
+
+div .player-2:hover {
+    background-color: #7665bd;
+}
+
+.tile-1.p1-t1 ion-icon:first-child {
+    display: block;
+}
+
+.tile-1.p2-t1 ion-icon:last-child {
+    display: block;
+}
+
+.tile-2.p1-t2 ion-icon:first-child {
+    display: block;
+}
+
+.tile-2.p2-t2 ion-icon:last-child {
+    display: block;
+}
+
+.tile-3.p1-t3 ion-icon:first-child {
+    display: block;
+}
+
+.tile-3.p2-t3 ion-icon:last-child {
+    display: block;
+}
+
+.tile-4.p1-t4 ion-icon:first-child {
+    display: block;
+}
+
+.tile-4.p2-t4 ion-icon:last-child {
+    display: block;
+}
+
+.tile-5.p1-t5 ion-icon:first-child {
+    display: block;
+}
+
+.tile-5.p2-t5 ion-icon:last-child {
+    display: block;
+}
+
+.tile-6.p1-t6 ion-icon:first-child {
+    display: block;
+}
+
+.tile-6.p2-t6 ion-icon:last-child {
+    display: block;
+}
+
+.tile-7.p1-t7 ion-icon:first-child {
+    display: block;
+}
+
+.tile-7.p2-t7 ion-icon:last-child {
+    display: block;
+}
+
+.tile-8.p1-t8 ion-icon:first-child {
+    display: block;
+}
+
+.tile-8.p2-t8 ion-icon:last-child {
+    display: block;
+}
+
+.tile-9.p1-t9 ion-icon:first-child {
+    display: block;
+}
+
+.tile-9.p2-t9 ion-icon:last-child {
+    display: block;
+}
+
+.clicked {
+    pointer-events: none;
+}
+
+.button-section {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.play-btn {
+    display: inline-block;
+    padding: 20px 60px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #c38d9e;
+    border: 1px solid #c38d9e;
+    color: wheat;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.play-btn:hover {
+    background-color: #c36683;
+}
